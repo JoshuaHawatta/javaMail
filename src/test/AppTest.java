@@ -12,7 +12,7 @@ public class AppTest {
     public void addSmtpProperties() {
         try {
             final String userName = "joshuahawatta.javaweb@gmail.com";
-            final String password = "dsoawwwabyksbvpu";
+            final String password = "amtgrznfgvmvfory";
 
             Properties GMAIL_SMTP = this.setGmailProperties();
             Session session = Session.getInstance(GMAIL_SMTP, this.createAuthenticator(userName, password));
